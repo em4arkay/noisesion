@@ -15,15 +15,16 @@ export const genres = [
   { title: 'K-Pop', value: 'K_POP' },
 ];
 
-export const countrys = [
-  { name: "Australia", value: "AU" },
-  { name: "Canada", value: "CA" },
-  { name: "China", value: "CN" },
-  { name: "France", value: "FR" },
-  { name: "Germany", value: "DE" },
-  { name: "Japan", value: "JP" },
-  { name: "South Korea", value: "KR" },
-  { name: "Thailand", value: "TH" },
-  { name: "United Kingdom", value: "GB" },
-  { name: "United States", value: "US" },
+export const countries = [
+  { title: 'United States', value: 'US' },
+  { title: 'Canada', value: 'CA' },
+  { title: 'United Kingdom', value: 'GB' },
+  { title: 'Australia', value: 'AU' },
+  { title: 'Germany', value: 'DE' },
+  { title: 'France', value: 'FR' },
+  { title: 'Japan', value: 'JP' },
+  { title: 'Brazil', value: 'BR' },
+  { title: 'India', value: 'IN' },
+  { title: 'South Korea', value: 'KR' },
+  { title: 'Thailand', value: 'TH' },
 ];

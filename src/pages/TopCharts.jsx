@@ -18,7 +18,7 @@ const TopCharts = () => {
       </h2>
 
       <div className="flex flex-wrap font-dmsans sm:justify-start justify-center gap-8">
-        {data.map((song, i) => (
+        {data?.map((song, i) => (
           <SongCard
             key={song.key}
             song={song}

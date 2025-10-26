@@ -11,7 +11,7 @@ const initialState = {
 };
 
 const playerSlice = createSlice({
-  name: "player",
+  name: 'player',
   initialState,
   reducers: {
     setActiveSong: (state, action) => {
